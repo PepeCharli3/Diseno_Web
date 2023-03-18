@@ -1,0 +1,60 @@
+/* Este es un comentario en css */
+/* " "*" es el selector universal */
+/* Podemos poner varios selectores h1,h2,p */
+h1{
+    color: rgb(223, 236, 190);
+    background-color: black;
+    /* Text-align sirve para acomodar el texto */
+    text-align: center;
+    /* Tamaño de la fuente */
+    font-size: 100px;
+    /* Espacio entre cada letra */
+    letter-spacing: 15px;
+    /* Separacion entre cada palabra */
+    word-spacing: 50px; 
+}
+nav{
+    background-color: rgb(223, 236, 190);
+}
+body{
+    /* fuente de letra */
+    font-family: 'Lobster', cursive;
+}
+h2{
+    /* Aqui pusimos el color en Hexadecimal
+    color: black;
+    /* Aqui pusimos el color en RGB */
+    /*background-color: rgb(65, 153, 255); */
+    text-align: center;   
+}
+footer{
+    background-color: yellow;
+    text-align: center;
+}
+section{
+    background-color: rgb(65, 153, 255);
+    text-align: center;
+}
+aside{
+    background-color: pink;
+    text-align: center;
+}
+/* Solo a las p que estan en section (esto es con auda de la herencia) */
+section p{
+    color: red;
+}
+p{
+    /* Pone negritas */
+    font-weight: bold;
+    /* Subrayado */
+    text-decoration: underline;
+    /* Cambia el color del subrayado */
+    text-decoration-color: aquamarine;
+    /* Ponemos todas las p en mayusculas */
+    text-transform: uppercase;
+}
+a{
+    /* Quitamos el subrayado */
+    text-decoration: none;
+}
+
